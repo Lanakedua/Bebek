@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# Created By X - MrG3P5
 import pyfiglet
 import requests
 import os
@@ -29,7 +27,7 @@ def banner(str):
     print(f"\t\t{red}[ {white}This tools for auto win in game stumble{red} ]\n")
 
 def start():
-    banner("X-Stumble")
+    banner("LanAntiBocor")
     input_auth = input(f"{red}[{white}?{red}] {white}Enter your auth token : ")
     round_input = input(f"{red}[{white}?{red}] {white}Enter round (1, 2, 3) : ")
     delay_input = input(f"{red}[{white}?{red}] {white}Enter Delay (ex: 1 = 1sec) : ")
